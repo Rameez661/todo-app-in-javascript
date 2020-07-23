@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo app in JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div align="center"><br>
+        <label for="">Roll No. : </label>
+        <input type="text" id="rollno" placeholder="Student Roll No."><br><br>
+        <label for="">Name : </label>&nbsp;&nbsp;&nbsp;
+        <input type="text" id="name" placeholder="Student Name"><br><br>
+        <label for="">Class : </label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="class" placeholder="Student Class"><br><br>
+
+        <button onclick="add()" id="addd">Add Details</button><br><br>
+        <button onclick="deleteall()" id="deee">delete All</button><br>
+    </div>
+
+    <table id="table" border="1" align="center">
+    <h1 align="center"><u>STUDENT RECORD</u></h1>
+        <tr>
+            <th>Roll No.</th>
+            <th>Name</th>        
+            <th>Class</th>  
+            <th>Action</th>        
+        </tr>
+
+    </table>
+
+<script src="app.js"></script>
+</body>
+</html>

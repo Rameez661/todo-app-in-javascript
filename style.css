@@ -1,0 +1,66 @@
+body {
+  background-color: #999;
+  color: white;
+}
+.editt {
+  background-color: black;
+  color: white;
+  margin: 5px;
+}
+.deletee {
+  background-color: black;
+  color: white;
+  margin: 5px;
+}
+.editt:hover {
+  background-color: blue;
+  color: white;
+  margin: 5px;
+}
+.deletee:hover {
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+.td1 {
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+.td1:hover {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+.td2 {
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+.td2:hover {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+.td3 {
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+.td3:hover {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+#addd:hover {
+  background-color: greenyellow;
+  color: black;
+  border: none;
+  font-size: 15px;
+}
+#deee:hover {
+  background-color: red;
+  color: black;
+  border: none;
+  font-size: 15px;
+}
